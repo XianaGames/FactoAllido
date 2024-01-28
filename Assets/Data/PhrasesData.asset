@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da110463fca37e94eafae31a19ef220e, type: 3}
+  m_Name: PhrasesData
+  m_EditorClassIdentifier: 
+  phrases:
+  - id: pajaro
+    structure:
+    - text: "M\xE1s vale "
+      isWordSlot: 0
+    - text: "p\xE1jaro"
+      isWordSlot: 1
+    - text: ' en mano que cien volando.'
+      isWordSlot: 0
+  - id: dios
+    structure:
+    - text: 'A quien madruga '
+      isWordSlot: 0
+    - text: Dios
+      isWordSlot: 1
+    - text: ' lo ayuda.'
+      isWordSlot: 0
+  - id: tarde
+    structure:
+    - text: "M\xE1s vale "
+      isWordSlot: 0
+    - text: tarde
+      isWordSlot: 1
+    - text: ' que nunca.'
+      isWordSlot: 0
+  - id: mucho
+    structure:
+    - text: 'Quien '
+      isWordSlot: 0
+    - text: mucho
+      isWordSlot: 1
+    - text: ' abarca, poco aprieta'
+      isWordSlot: 0
+  - id: caballo
+    structure:
+    - text: 'A '
+      isWordSlot: 0
+    - text: caballo
+      isWordSlot: 1
+    - text: ' regalado, no se le miran los dientes'
+      isWordSlot: 0
+  - id: camaron
+    structure:
+    - text: "Camar\xF3n"
+      isWordSlot: 1
+    - text: ' que se duerme, se lo lleva '
+      isWordSlot: 0
+    - text: la corriente
+      isWordSlot: 1
